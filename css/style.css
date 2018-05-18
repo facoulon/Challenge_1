@@ -1,0 +1,164 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+}
+
+main {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+header {
+    width: 1020px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: black;
+}
+
+nav {
+    height: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav a:hover {
+    color: #cfa205;
+}
+
+.current {
+    color: #cfa205;
+}
+
+li {
+    display: inline;
+}
+
+nav ul {
+    padding-top: 1em;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 3em;
+}
+
+nav li:first-child {
+    padding-left: 3em
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 133px;
+    padding-top: 0.25em;
+    color: #cfa205;
+}
+
+.slogan {
+    padding-top: 4em;
+    color: #cfa205;
+}
+
+.contact {
+    background-color: #e8e8e8;
+    width: 1020px;
+    height: 60px;
+    max-height: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact i {
+    padding-top: 0.5em;
+    font-size: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.contact a {
+    color: #7a7a7a;
+}
+
+.presentation {
+    height: 90px;
+    color: #7a7a7a;
+    padding: 60px;
+    font-size: 18px;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    text-align: justify;
+    text-align-last: center;
+    vertical-align: middle;
+    line-height: 1.5em;
+    letter-spacing: -0.08em;
+
+}
+
+.presentation p {
+    padding-top: 10px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #7a7a7a;
+    padding-bottom: 3%;
+}
+
+article {
+    display: inline-block;
+    width: 900px;
+    font-size: 14px;
+    font-family: 'Bitter', serif;
+    color: #7a7a7a;
+    vertical-align: top;
+    margin-bottom: 1em;
+}
+
+article.article1 {
+    width: 260px;
+    margin-left: 60px;
+}
+
+article.article2 {
+    width: 260px;
+    margin-left: 60px;
+}
+
+article.article3 {
+    width: 260px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.article img {
+    width: 260px;
+    height: 195px;
+    padding-bottom: 1em;
+}
+
+.article h3 {
+    font-size: 14px;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    padding: 5% 0;
+    text-transform: uppercase;
+    color: black;
+}
+
+article a {
+    color: #7a7a7a;
+    text-decoration: none;
+}
+article p {
+    line-height: 1.5;
+}
+
+main+a {
+    position: fixed;
+    bottom: 10px;
+    right: 70px;
+    opacity: 0.5
+}
